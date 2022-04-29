@@ -2,25 +2,25 @@ export default function Caracteristicas({}){
     const sections = [
         {
             image: '/screenshots/1.png',
-            description: 'Muestra tus logros en un perfil de usuario tan unico como tu. Muestra tus juegos logros anteriores, inscribite a los eventos del LGJ, conoce el tu estatus de la misma y mucho mas.'
+            description: 'Muestra tus logros en un perfil de usuario tan único como tú. Muestra tus juegos, logros anteriores, inscríbete a los eventos del LGJ, conoce el tu estatus de la misma y mucho más.'
         },
         {
             image: '/screenshots/3.png',
-            description: 'Si te gusta tomar iniciativa, crea un grupo con tus amigos o con crea nuevas relaciones. Con nosotros podras crar o modifica tu grupo, idenficiate con una imagen unica y subit tu juego al final del evento'
+            description: 'Si te gusta tomar iniciativa, crea un grupo con tus amigos o crea nuevas relaciones. Con nosotros podrás crear o modifica tu grupo, identificarte con una imagen única y subir tu juego al final del evento.'
         },
         {
             image: '/screenshots/6.png',
-            description: 'Guarda en tu calendario personalizado, todos los eventos, charlas y talleres que te gustaria participar y recibe notificaciones cuando estos esten por iniciar. Nunca mas te pierdas un evento!'
+            description: 'Guarda en tu calendario personalizado, todos los eventos, charlas y talleres que te gustaría participar y recibe notificaciones cuando estos estén por iniciar. ¡Nunca más te pierdas un evento!'
         },
         {
             image: '/screenshots/4.png',
-            description: 'Nunca mas te quedes sin grupo! Encuentra personas con los experiencias similares a ti, que buscan tu rol y crea un grupo con ellos. Puedes unirte a un grupo que ya exista o crear uno nuevo.'
+            description: '¡Nunca más te quedes sin grupo! Encuentra personas con la experiencia similares a ti, que buscan tu rol y crea un grupo con ellos. Puedes unirte a un grupo que ya exista o generar uno nuevo.'
         },{
             image: '/screenshots/2.png',
-            description: 'Siempre manten a tus participantes actualizados de todo lo que se viene en el LGJ. Con un calendario de eventos, puedes crear eventos, definir el tipo, quien lo dictara y mucho mas.'
+            description: 'Siempre mantén a tus participantes actualizados de todo lo que se viene en el LGJ. Con un calendario de eventos, puedes crear eventos, definir el tipo, quien lo dictara y mucho más'
         },{
             image: '/screenshots/5.png',
-            description: 'Conoce a tus participantes, busca a los participantes por nombre, apellido, correo y conocer que areas son las mas populares en cada evento.'
+            description: 'Conoce a tus participantes, busca a los participantes por nombre, apellido, correo y conocer que áreas son las más populares en cada evento.'
         }
     ]
 
@@ -53,7 +53,7 @@ export default function Caracteristicas({}){
         </div>
 
         <h2 class="white-text centered-text">
-            AND A LOT MORE!!
+            ...AND A LOT MORE!!
         </h2>
 
         <a href="/" className="centered-text button">ACCEDER</a>

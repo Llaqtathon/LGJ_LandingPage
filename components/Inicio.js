@@ -2,7 +2,8 @@ import Header from '@components/Header'
 import Navbar from '@components/Navbar'
 
 export default function Inicio({socialIcons}){
-    const subtitle = 'Una plataforma diseñada para apoyar a los participantes y organizadores del Lima Game Jam. Y crear una experiencia unica para todos.'
+    const subtitle = 'Una plataforma diseñada para apoyar a los participantes y organizadores del Lima Game Jam. Y crear una experiencia única para todos.'
+
     return(
     <section id="Inicio">
         <div  className="container">
