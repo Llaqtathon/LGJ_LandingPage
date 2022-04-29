@@ -3,19 +3,17 @@ export default function Acerca({}){
         {
             title: '<Game Jam>',
             subtitle: 'Un evento diferente',
-            text: 'Los game jams son espacios para prototipar ideas en un corto plazo de tiempo y una excelente manera de conocer cómo se hace un videojuego. Desde 2012 organizamos anualmente el Lima Game Jam como parte del Global Game Jam para dar esta posibilidad a decenas de interesados en la creación de videojuegos.'
+            text: 'Los game jams son espacios para prototipar ideas en un corto plazo de tiempo y una excelente manera de conocer cómo se hace un videojuego. Los participantes pueden formar parte de diferentes disciplinas relacionadas con el desarrollo de videojuegos y pueden organizarse de forma individual o por equipos.'
         },
         {
             title: '// Organización',
             subtitle: 'Conoce más acerca del LGJ',
-            text: `Los game jams son espacios para prototipar ideas en un corto plazo de tiempo y una excelente manera de conocer cómo se hace un videojuego. 
-        
-            Desde 2012 se organiza anualmente el Lima Game Jam como parte del Global Game Jam para dar esta posibilidad a decenas de interesados en la creación de videojuegos.`
+            text: `Evento peruano de desarrollo de videojuegos y creación de juegos de mesa más importante a nivel local. Sede oficial del Global Game Jam desde el 2012. El Lima Game Jam es también una oportunidad para que los diferentes actores de la industria nacional de videojuegos se reúnan y contribuyan en torno a un fin común. Desde estudios de videojuegos a entidades públicas, pasando por instituciones educativas y comunidades, todos suman para convertir el evento en una tradición.`
         },
         {
             title: '// Plataforma',
             subtitle: 'Una aplicación pensada para todos',
-            text: `Los game jams son espacios para prototipar ideas en un corto plazo de tiempo y una excelente manera de conocer cómo se hace un videojuego.`
+            text: `Reconocemos el potencial que tienen lo Game Jam de incentivar el desarrollo, crear nuevas relaciones e incrementar el interés por la innovación y nuevas tecnologías. Por ello hemos desarrollado una aplicación que responde a las necesidades de los usuarios de LGJ y que facilite todo el proceso de participar y organizar este increíble evento.`
         }
     ]
 
