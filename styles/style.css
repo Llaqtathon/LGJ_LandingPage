@@ -22,7 +22,7 @@
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 90vh;
+    height: 80vh;
     align-items: center;
 }
 
@@ -53,6 +53,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .menu-bar {
@@ -82,12 +83,38 @@ nav a:hover{
 
 .about-section{
     background: var(--color-lighter);
-    display: flex;
-    justify-content: center;
     align-items: center;
+    position: relative;
 }
-.about-section .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.about-image{
+    align-self: flex-end;
+}
+
+.about-section .overlay-image{
+    position: absolute;
+    max-width: 300px;
+
+    top: -170px;
+    right: 0;
+}
+
+
+.about-section .overlay-image img{   
+    object-fit: cover;  
+    box-shadow: -15px 15px 0px 1px var(--color-accent);
+    -webkit-box-shadow: -15px 15px 0px 1px var(--color-accent);
+    -moz-box-shadow: -15px 15px 0px 1px var(--color-accent);
+}
+
+
+.description{
+    margin-bottom: 5rem;
+}
+
+.description h1 {
+    margin-bottom: 10px;
+}
+
+.description .body-big{
+    margin-bottom: 24px;
 }

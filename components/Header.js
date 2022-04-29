@@ -9,7 +9,7 @@ export default function Header({ title, subtitle, buttonText, socialIcons }) {
       <div className="social-icons">
         {socialIcons.map(({ name, url }) => (
           <a key={name} href={url}>
-            <FontAwesomeIcon icon={['fab', `${name}-f`]} />
+            <FontAwesomeIcon icon={['fab', `${name}`]} />
           </a>
         ))}
       </div>

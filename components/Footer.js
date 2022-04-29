@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Footer({socialIcons}) {
   return (
     <>
-      <footer>
+      <footer class="container">
         <p>
           Contacto:
           <a href="mailto:contacto@limagamejam.com">

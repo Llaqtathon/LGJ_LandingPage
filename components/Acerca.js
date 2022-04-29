@@ -20,8 +20,11 @@ export default function Acerca({}){
     ]
 
     return (
-    <section class="about-section" id="Acerca">
-        <div class="container">
+    <section class="about-section" id="about">
+        <figure class="overlay-image">
+            <img src="/about-outer-image.jpg" alt="Photo of Women at the Meeting"/>
+        </figure>
+        <div class="container grid-2">
             <div>
             {sections.map(({ title, subtitle, text }, index) => (
                 <div key={index} className="description">
@@ -31,9 +34,11 @@ export default function Acerca({}){
                 </div>
             ))}
             </div>
-            <img src="/about-image.png" alt="freelancer"/>
+            <img class="about-image" src="/about-image.png" alt="freelancer"/>
         </div>
     </section>
     )
 }
 /*Illustration by <a href="https://icons8.com/illustrations/author/CkHJmwURlxnt">Olha Khomich</a> from <a href="https://icons8.com/illustrations">Ouch!</a>*/
+
+//Photo by RF._.studio: https://www.pexels.com/photo/photo-of-women-at-the-meeting-3810792/
