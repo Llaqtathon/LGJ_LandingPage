@@ -1,23 +1,32 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Inicio from '@components/Inicio'
+import Acerca from '@components/Acerca'
+import Caracteristicas from '@components/Caracteristicas'
 
 export default function Home() {
+  const socialIcons = [
+    { name: 'facebook', url: 'https://facebook.com/limagamejam' },
+    { name: 'twitter', url: 'https://twitter.com/limagamejam' },
+    { name: 'instagram', url: 'https://instagram.com/limagamejam' },
+    { name: 'linkedin', url: '/' }
+  ]
+
   return (
-    <div className="container">
+    <>
       <Head>
-        <title>Lima Game Jam Starter!</title>
+        <title>Llaqtathon</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
+      </Head> 
+      <Inicio 
+        socialIcons={socialIcons}
+      />
+      <hr class="divider" />
+      <Acerca/>
+      <Caracteristicas/>
+      <Footer 
+        socialIcons={socialIcons}
+      />
+    </>
   )
 }
