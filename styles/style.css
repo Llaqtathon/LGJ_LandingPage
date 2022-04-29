@@ -12,18 +12,11 @@
     display: block;
     
     width: max-content;
+    font-weight: 600;
 }
 
 .button:hover{
     opacity: 0.8;
-}
-
-/* Header */
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 80vh;
-    align-items: center;
 }
 
 .title{
@@ -108,7 +101,7 @@ nav a:hover{
 
 
 .description{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .description h1 {
@@ -117,4 +110,21 @@ nav a:hover{
 
 .description .body-big{
     margin-bottom: 24px;
+}
+
+.feature-card{
+    background: var(--color-lighter);
+    padding: 0 24px;
+    border-radius: 12px;
+}
+
+.feature-card img{
+    max-height: 275px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.feature-section h2{
+    margin-top: 42px;
 }

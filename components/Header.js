@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Header({ title, subtitle, buttonText, socialIcons }) {
-  return <header>
-    <div>
+  return <header class="grid-2">
+    <div class="header-content">
       <h1 className="title">{title}</h1>
       <p className="subtitle body-big">{subtitle}</p >
       <a href="/" className="button">{buttonText}</a>

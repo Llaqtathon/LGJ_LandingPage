@@ -1,5 +1,5 @@
 export default function Navbar() {
-    const menu = ['Inicio', 'About', 'Caracteristicas', 'Contacto'];
+    const menu = ['Inicio', 'About', 'Features'];
 
     return (
         <nav>

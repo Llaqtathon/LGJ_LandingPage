@@ -5,8 +5,6 @@ import Acerca from '@components/Acerca'
 import Caracteristicas from '@components/Caracteristicas'
 
 export default function Home() {
-  
-
   const socialIcons = [
     { name: 'facebook', url: 'https://facebook.com/limagamejam' },
     { name: 'twitter', url: 'https://twitter.com/limagamejam' },
@@ -16,19 +14,19 @@ export default function Home() {
 
   return (
     <>
-    <Head>
-      <title>Llaqtathon</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head> 
-    <Inicio 
-      socialIcons={socialIcons}
+      <Head>
+        <title>Llaqtathon</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head> 
+      <Inicio 
+        socialIcons={socialIcons}
       />
-    <hr class="divider" />
-    <Acerca/>
-    <Caracteristicas/>
-    <Footer 
-      socialIcons={socialIcons}
-    />
+      <hr class="divider" />
+      <Acerca/>
+      <Caracteristicas/>
+      <Footer 
+        socialIcons={socialIcons}
+      />
     </>
   )
 }

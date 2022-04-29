@@ -6,19 +6,8 @@ export default function Footer({socialIcons}) {
     <>
       <footer class="container">
         <p>
-          Contacto:
-          <a href="mailto:contacto@limagamejam.com">
-              contacto@limagamejam.com
-          </a>
+          Made with ❤️ by Us For <a href='https://limagamejam.com/'>Lima Game Jam</a>
         </p>
-        <div className='social-icons'>
-          {socialIcons.map(({ name, url }) => (
-            <a key={name} href={url}>
-                <span>{name}</span>
-                <FontAwesomeIcon icon={['fab', name]} />
-            </a>
-          ))}
-        </div>
       </footer>
     </>
   )
