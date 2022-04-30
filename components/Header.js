@@ -4,7 +4,7 @@ export default function Header({ title, subtitle, buttonText, socialIcons }) {
   return <header class="grid-2">
     <div class="header-content">
       <h1 className="title">{title}</h1>
-      <p className="subtitle body-big">{subtitle}</p >
+      <p className="white-text subtitle body-big">{subtitle}</p >
       <a href="/" className="button">{buttonText}</a>
       <div className="social-icons">
         {socialIcons.map(({ name, url }) => (
