@@ -56,6 +56,12 @@ export default function Caracteristicas({}){
             ...AND A LOT MORE!!
         </h2>
 
+        <p className="white-text centered-text">
+        Conoce Mas: <a target="_blank" href="https://www.youtube.com/watch?v=Z-HJHRHA0G4">
+           About the product Video 
+        </a>
+        </p>
+        
         <a href="/" className="centered-text button">ACCEDER</a>
     </section>
     )
